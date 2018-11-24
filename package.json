@@ -1,0 +1,24 @@
+{
+  "name": "practice-css",
+  "version": "1.0.0",
+  "description": "project for practicing CSS's new features",
+  "main": "index.js",
+  "scripts": {
+    "compaile:sass":"node-sass style/main.scss main.css -w",
+    "start:live-serve":"live-server",
+    "start":"node-sass style/main.scss main.css -w | live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jozaghi/practice-css.git"
+  },
+  "author": "Alireza Jozaghi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jozaghi/practice-css/issues"
+  },
+  "homepage": "https://github.com/jozaghi/practice-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
