@@ -2,7 +2,7 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
-
+@import "./base/utilities";
 @import "./base/base";
 @import "./base/animation";
 @import "./base/utilities";
@@ -11,6 +11,7 @@
 @import "./componets/button";
 
 @import "./layout/header";
+@import "./layout/grid";
 
 @import "./pages/home";
 
@@ -20,21 +21,3 @@
 
 
 //style
-
-.logobox{
-    position: absolute;
-    top:40px;
-    left: 40px;
-    &__logo{
-        height: 35px;
-    }
-}
-
-.text-box{
-    position: absolute;
-    top:40%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
