@@ -4,9 +4,9 @@
   "description": "project for practicing CSS's new features",
   "main": "index.js",
   "scripts": {
-    "compaile:sass":"node-sass style/main.scss main.css -w",
-    "start:live-serve":"live-server",
-    "start":"node-sass style/sass/main.scss main.css -w | live-server"
+    "compaile:sass": "node-sass style/main.scss main.css -w",
+    "start:live-serve": "live-server",
+    "start": "node-sass style/sass/main.scss main.css -w | live-server"
   },
   "repository": {
     "type": "git",
